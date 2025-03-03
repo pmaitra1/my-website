@@ -1,16 +1,27 @@
 import { motion } from "framer-motion";
 
 const projects = [
-  { title: "Portfolio Website", description: "A personal portfolio built with React.", link: "#" },
-  { title: "E-commerce App", description: "An online store with cart and checkout features.", link: "#" },
-  { title: "Chat App", description: "A real-time chat application using WebSockets.", link: "#" },
-  { title: "Portfolio Website", description: "A personal portfolio built with React.", link: "#" },
-  { title: "E-commerce App", description: "An online store with cart and checkout features.", link: "#" },
-  { title: "Chat App", description: "A real-time chat application using WebSockets.", link: "#" },
-  { title: "Portfolio Website", description: "A personal portfolio built with React.", link: "#" },
-  { title: "E-commerce App", description: "An online store with cart and checkout features.", link: "#" },
-  { title: "Chat App", description: "A real-time chat application using WebSockets.", link: "#" },
-];
+  {
+  title: "Portfolio Website",
+  description: "A personal portfolio built with React.",
+  link: "https://github.com/pmaitra1/my-website.git"
+  },
+  {
+  title: "Mathematics Assessment Study",
+  description: "Analyzing post-COVID mathematics degree assessments.",
+  link: "https://github.com/pmaitra1/Maths-Group-Project.git"
+  },
+  {
+  title: "Human Activity Recognition",
+  description: "A machine learning IoT system for activity recognition.",
+  link: "https://github.com/pmaitra1/human_activity_recognition_app.git"
+  },
+  {
+  title: "OpenDBML Enhancements",
+  description: "Enhancements to an in-database ML framework.",
+  link: "https://github.com/pmaitra1/OpenDBML-enhancements.git"
+  }
+  ];
 
 const Projects = () => {
   return (

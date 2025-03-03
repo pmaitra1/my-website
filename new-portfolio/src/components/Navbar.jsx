@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-gray-100 shadow-md p-4 flex justify-between items-center">
-      <Link to="/" className="text-xl font-bold">DeveloperFolio</Link>
+      <Link to="/" className="text-xl font-bold">My Portfolio</Link>
       <div className="space-x-4">
         <Link to="/" className="hover:text-gray-700 dark:hover:text-gray-300">Home</Link>
         <Link to="/projects" className="hover:text-gray-700 dark:hover:text-gray-300">Projects</Link>
@@ -32,14 +32,11 @@ const Navbar = () => {
         >
           {darkMode ? <FaSun size={20} /> : <FaMoon size={20} />}
         </button>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700 dark:hover:text-gray-300">
+        <a href="https://github.com/pmaitra1" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700 dark:hover:text-gray-300">
           <FaGithub size={20} />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700 dark:hover:text-gray-300">
+        <a href="https://www.linkedin.com/in/prapti-maitra-0673b7193/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700 dark:hover:text-gray-300">
           <FaLinkedin size={20} />
-        </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700 dark:hover:text-gray-300">
-          <FaTwitter size={20} />
         </a>
       </div>
     </nav>
