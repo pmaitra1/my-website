@@ -23,12 +23,17 @@ const Home = () => {
         I am looking to contribute to meaningful organisations and companies. My interests apart from software engineering include <strong>financial technology, robotics, and computer security</strong>.
       </motion.p>
       <div className="mt-6 space-x-4">
-        <a href="/projects" className="px-6 py-3 bg-gray-500 dark:bg-gray-600 rounded-lg text-white font-bold hover:bg-gray-600 dark:hover:bg-gray-700 transition duration-300">
-          View Projects
-        </a>
-        <a href="/prapti_maitra_resume.pdf" download className="px-6 py-3 bg-blue-500 rounded-lg text-white font-bold hover:bg-blue-600 transition duration-300">
-          View Resume
-        </a>
+      <a href="#/projects" className="px-6 py-3 bg-gray-500 dark:bg-gray-600 rounded-lg text-white font-bold hover:bg-gray-600 dark:hover:bg-gray-700 transition duration-300">
+         View Projects
+      </a>
+      <a
+        href="prapti_maitra_resume.pdf"
+        download="Prapti_Maitra_Resume.pdf"
+        className="px-6 py-3 bg-blue-500 rounded-lg text-white font-bold hover:bg-blue-600 transition duration-300"
+      >
+  Download Resume
+</a>
+
       </div>
     </section>
   );
