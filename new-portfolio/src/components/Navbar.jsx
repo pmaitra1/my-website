@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { FaGithub, FaLinkedin, FaTwitter, FaSun, FaMoon } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaSun, FaMoon, FaEnvelope } from "react-icons/fa";
 
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(
-    localStorage.getItem("theme") === "dark"
+    localStorage.getItem("theme") === "dark" || localStorage.getItem("theme") === null
   );
+  
 
   useEffect(() => {
     if (darkMode) {
@@ -37,6 +38,9 @@ const Navbar = () => {
         </a>
         <a href="https://www.linkedin.com/in/prapti-maitra-0673b7193/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-700 dark:hover:text-gray-300">
           <FaLinkedin size={20} />
+        </a>
+        <a href="mailto:praptimaitra@gmail.com" className="hover:text-gray-700 dark:hover:text-gray-300">
+          <FaEnvelope size={20} />
         </a>
       </div>
     </nav>
