@@ -3,21 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "rm -rf node_modules/.cache",
+    "deploy": "gh-pages -d ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pmaitra1/my-website.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pmaitra1/my-website/issues"
-  },
-  "homepage": "https://github.com/pmaitra1/my-website#readme",
-  "description": "",
+  "homepage": "https://pmaitra1.github.io/my-website",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
